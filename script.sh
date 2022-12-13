@@ -8,9 +8,10 @@
 
 
 # what to backup 
-backup_files = "/oracle"
+backup_files = "/opt/oracle"
 #destination on va stocke notre fichies 
-des = "/home/oracle/backup"
+username=$ (whoami)
+des = "/home/$username" #dans le repertoire de user oracle  
 #create archive filename
 day=$ (date + %A)
 hostname=$(hostname -s)
