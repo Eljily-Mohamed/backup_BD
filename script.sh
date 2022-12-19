@@ -7,7 +7,7 @@
 ##############################
 
 
-# what to backup 
+# what to backup file 
 backup_files = "/opt/oracle"
 #destination on va stocke notre fichies 
 username=$ (whoami)
@@ -16,6 +16,7 @@ des = "/home/$username" #dans le repertoire de user oracle
 day=$ (date + %A)
 hostname=$(hostname -s)
 archive_file ="$hostname-$day.tgz"
+user_name= $(hostname -" ")+$(whoami + "")
 
 #print start status message.
 
