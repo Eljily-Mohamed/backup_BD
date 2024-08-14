@@ -24,11 +24,11 @@ Here’s an example of how the script might be used:
 
 $ ./backup_script.sh
 
-vous voulez faire Backup de database ou Pluggable : b/p : b
-Donner le nom de la base de donne : orcl
-fichier precis or Database complexe ? [y/N] y
-fichier Datafiles .dbf? [y/N] y
-fichier controles .ctl? [y/N] n
-fichier journal .log? [y/N] n
-Destination de votre backup /home/USERNAME/ : backups
+vous voulez faire Backup de database ou Pluggable : b/p : b.
+Donner le nom de la base de donne : orcl.
+fichier precis or Database complexe ? [y/N] y.
+fichier Datafiles .dbf? [y/N] y.
+fichier controles .ctl? [y/N] n.
+fichier journal .log? [y/N] n.
+Destination de votre backup /home/USERNAME/ : backups.
 
